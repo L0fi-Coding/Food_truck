@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+    border:none;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    color:#f9faf8;
+    height:350px;
+    margin:0;
+    padding:0;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 8px;
+
+}
+.header-link{
+    display: flex;
+    gap:15px;
+}
+.top-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: normal;
+    margin-top: 50px;
+    gap:30px;
+}
+.hero{
+    gap:40px;
+}
+.hero-first{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+.hero-second{
+    font-size: 18px;
+    width:400px;
+}
+ul{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+
+button{
+    height:30px;
+    width:90px;
+    background-color:#3882f6;
+    color:#f9faf8;
+    margin-top: 10px;
+    font-weight: 800;
+    border-radius: 10px;
+}
+
+.mid-one{
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+
+}
+.mid-head{
+    padding-bottom: 40px;
+    
+}
+.menu{
+    display: flex;
+    gap:50px;
+}
+
+
+.item-img{
+    height:150px;
+    width:150px;
+    border-radius: 10px;
+    border: 3px solid #3882f6;
+}
+.item-dis{
+    font-size: 18px;
+    width:150px;
+    word-wrap: break-word;
+}
+.mid-two{
+    display: flex;
+    height:350px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+}
+.two-dis{
+    width: 500px;
+    font-size: 36px;
+    word-wrap: break-word;
+    font-style: italic;
+    font-weight: 0;
+}
+.two-quote{
+    align-self: flex-end;
+    padding-right:500px;
+}
+.bottom{
+    display: flex;
+    height:350px;
+    justify-content: center;
+    align-items: center;
+}
+.bot-box{
+    display: flex;
+    background-color: #3882f6;
+    height:125px;
+    width:800px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding-left: 60px;
+    padding-right: 100px;
+}
+.bot-header{
+    color:#e5e7eb;
+}
+.bot-text{
+    color:#e5e7eb;
+}
+.bot-button{
+    margin-left:auto;
+    border: 3px solid #e5e7eb;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height:75px;
+}
+
+
