@@ -1,0 +1,1 @@
+created website template putting into practice html, css, and flexbox fundamentals learned
